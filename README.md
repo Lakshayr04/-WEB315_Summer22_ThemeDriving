@@ -19,3 +19,10 @@ dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.*
 dotnet add package Microsoft.EntityFrameworkCore.SQLite --version 5.*
 dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.*
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.*
+
+8. Use the Scaffolding terminal commands to build out your CRUD pages for model.
+Document the commands in the Readme.md.
+
+
+
+dotnet-aspnet-codegenerator razorpage -m ThemeDriving -dc ThemeDrivingContext -udl -outDir Pages/ThemeDriving --referenceScriptLibraries -sqlite

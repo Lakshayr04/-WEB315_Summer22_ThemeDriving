@@ -1,0 +1,49 @@
+@page
+@model _WEB315_Summer22_ThemeDriving.Pages_ThemeDriving.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ThemeDriving</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ThemeDriving.CarModel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ThemeDriving.CarModel)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ThemeDriving.BookingDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ThemeDriving.BookingDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ThemeDriving.Route)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ThemeDriving.Route)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ThemeDriving.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ThemeDriving.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ThemeDriving.distance)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ThemeDriving.distance)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.ThemeDriving.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

@@ -1,0 +1,60 @@
+@page
+@model _WEB315_Summer22_ThemeDriving.Pages_ThemeDriving.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeDriving[0].CarModel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeDriving[0].BookingDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeDriving[0].Route)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeDriving[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeDriving[0].distance)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.ThemeDriving) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CarModel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookingDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Route)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.distance)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

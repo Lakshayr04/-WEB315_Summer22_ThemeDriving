@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace _WEB315_Summer22_ThemeDriving
 {
@@ -24,6 +25,9 @@ namespace _WEB315_Summer22_ThemeDriving
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<ThemeDrivingContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("ThemeDrivingContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

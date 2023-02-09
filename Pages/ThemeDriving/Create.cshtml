@@ -1,0 +1,54 @@
+@page
+@model _WEB315_Summer22_ThemeDriving.Pages_ThemeDriving.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>ThemeDriving</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ThemeDriving.CarModel" class="control-label"></label>
+                <input asp-for="ThemeDriving.CarModel" class="form-control" />
+                <span asp-validation-for="ThemeDriving.CarModel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThemeDriving.BookingDate" class="control-label"></label>
+                <input asp-for="ThemeDriving.BookingDate" class="form-control" />
+                <span asp-validation-for="ThemeDriving.BookingDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThemeDriving.Route" class="control-label"></label>
+                <input asp-for="ThemeDriving.Route" class="form-control" />
+                <span asp-validation-for="ThemeDriving.Route" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThemeDriving.Price" class="control-label"></label>
+                <input asp-for="ThemeDriving.Price" class="form-control" />
+                <span asp-validation-for="ThemeDriving.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThemeDriving.distance" class="control-label"></label>
+                <input asp-for="ThemeDriving.distance" class="form-control" />
+                <span asp-validation-for="ThemeDriving.distance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
