@@ -12,3 +12,10 @@
 
 6.  In that file, I defined the class model. A minimum of 6
 properties in this class. One is ID, and DataType.
+
+7. dotnet tool install --global dotnet-ef --version 5
+dotnet tool install --global dotnet-aspnet-codegenerator --version 5.*
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.*
+dotnet add package Microsoft.EntityFrameworkCore.SQLite --version 5.*
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.*
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.*
