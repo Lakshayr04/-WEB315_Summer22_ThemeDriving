@@ -7,3 +7,8 @@
 3. Created webapp and now commiting.
 
 4. Theme, Name, Date and time.
+
+5. Models folder created with file name as ThemeDriving.cs
+
+6.  In that file, I defined the class model. A minimum of 6
+properties in this class. One is ID, and DataType.
