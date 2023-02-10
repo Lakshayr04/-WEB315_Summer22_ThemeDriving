@@ -30,3 +30,5 @@ dotnet-aspnet-codegenerator razorpage -m ThemeDriving -dc ThemeDrivingContext -u
 installing
 dotnet ef migrations add InitialCreate
 dotnet ef database update
+
+9. I add the class name of SeedDataThemeName.
