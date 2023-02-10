@@ -26,3 +26,7 @@ Document the commands in the Readme.md.
 
 
 dotnet-aspnet-codegenerator razorpage -m ThemeDriving -dc ThemeDrivingContext -udl -outDir Pages/ThemeDriving --referenceScriptLibraries -sqlite
+
+installing
+dotnet ef migrations add InitialCreate
+dotnet ef database update
