@@ -13,6 +13,8 @@ namespace _WEB315_Summer22_ThemeDriving.Models
         public string Route { get; set; }
         public decimal Price { get; set; }
         public string distance { get; set; }
+        public string colour { get; set; }
+        public int model number { get; set; }
 
         /*public int Rating { get; set;}
         public string RelatedFilms {get; set;}*/
