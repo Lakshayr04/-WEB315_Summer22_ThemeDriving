@@ -28,6 +28,14 @@
             <th>
                 @Html.DisplayNameFor(model => model.ThemeDriving[0].distance)
             </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeDriving[0].colour)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeDriving[0].Model number)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -49,6 +57,15 @@
             <td>
                 @Html.DisplayFor(modelItem => item.distance)
             </td>
+
+           <td>
+                @Html.DisplayFor(modelItem => item.colour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model number)
+            </td>
+
+
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
