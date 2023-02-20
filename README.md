@@ -32,3 +32,6 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 
 9. I add the class name of SeedDataThemeName.
+
+
+ASSIGNMEN

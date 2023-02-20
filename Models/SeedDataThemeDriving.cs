@@ -25,7 +25,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         CarModel = "FZ",
                         BookingDate = DateTime.Parse("2023-2-19"),
                         Route = "University Avenue",
-                        Price = 15.54M,
+                        Price = 1554,
                         distance = "15 KM",
                         colour = "red",
                         modelnumber = 2010
@@ -36,7 +36,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         CarModel = "Azure",
                         BookingDate = DateTime.Parse("2023-5-25"),
                         Route = "XYZ",
-                        Price = 21.00M,
+                        Price = 2100,
                         distance = "10 KM",
                         colour = "white",
                         modelnumber = 2015
@@ -48,7 +48,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         CarModel = "OD",
                         BookingDate = DateTime.Parse("2023-06-10"),
                         Route = "YYY",
-                        Price = 20.90M,
+                        Price = 2090,
                         distance = "12 KM",
                         colour = "grey",
                         modelnumber = 2012
@@ -59,7 +59,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         CarModel = "BMW",
                         BookingDate = DateTime.Parse("2023-08-28"),
                         Route = "QAA",
-                        Price = 19.44M,
+                        Price = 1944,
                         distance = "19 KM",
                         colour = "orange",
                         modelnumber = 2018
@@ -70,7 +70,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         CarModel = "A4",
                         BookingDate = DateTime.Parse("2023-03-20"),
                         Route = "ABC",
-                        Price = 16.04M,
+                        Price = 1604,
                         distance = "24 KM",
                         colour = "black",
                         modelnumber = 2020
