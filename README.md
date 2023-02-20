@@ -34,4 +34,16 @@ dotnet ef database update
 9. I add the class name of SeedDataThemeName.
 
 
-ASSIGNMEN
+# ASSIGNMENT- 2
+
+1. Firstly, i created a new branch and name it assignment 2 where I already created my assignment 1.
+
+2. Further, i added new properties in integer and string in my ThemeDriving.cs in the Model file.
+
+3. Then, I updated the model index page and declare the new properties.
+
+4. I updated the SeedData.
+
+5. I add the validation steps.
+
+6. I follow the some steps and add the migration. 

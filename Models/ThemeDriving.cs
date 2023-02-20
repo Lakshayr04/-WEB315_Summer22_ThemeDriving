@@ -25,7 +25,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
         [Required]
         public string colour { get; set; }
         
-        public int Price { get; set; }
+        public decimal Price { get; set; }
 
         public int modelnumber { get; set; }
     }
