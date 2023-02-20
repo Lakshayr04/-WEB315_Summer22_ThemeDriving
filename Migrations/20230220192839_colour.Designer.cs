@@ -2,14 +2,16 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace _WEB315_Summer22_ThemeDriving.Migrations
 {
     [DbContext(typeof(ThemeDrivingContext))]
-    partial class ThemeDrivingContextModelSnapshot : ModelSnapshot
+    [Migration("20230220192839_colour")]
+    partial class colour
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

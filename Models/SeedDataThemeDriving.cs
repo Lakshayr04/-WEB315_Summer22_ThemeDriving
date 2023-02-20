@@ -28,7 +28,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         Price = 15.54M,
                         distance = "15 KM",
                         colour = "red",
-                        Modelnumber = 2010
+                        modelnumber = 2010
                     },
 
                     new ThemeDriving
@@ -39,7 +39,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         Price = 21.00M,
                         distance = "10 KM",
                         colour = "white",
-                        Modelnumber = 2015
+                        modelnumber = 2015
                     
                     },
 
@@ -51,7 +51,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         Price = 20.90M,
                         distance = "12 KM",
                         colour = "grey",
-                        Modelnumber = 2012
+                        modelnumber = 2012
                     },
 
                     new ThemeDriving
@@ -62,7 +62,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         Price = 19.44M,
                         distance = "19 KM",
                         colour = "orange",
-                        Modelnumber = 2018
+                        modelnumber = 2018
                     },
 
                     new ThemeDriving
@@ -73,7 +73,7 @@ namespace _WEB315_Summer22_ThemeDriving.Models
                         Price = 16.04M,
                         distance = "24 KM",
                         colour = "black",
-                        Modelnumber = 2020
+                        modelnumber = 2020
                     }
                 );
                 context.SaveChanges();
