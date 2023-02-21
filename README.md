@@ -48,4 +48,6 @@ dotnet ef database update
 
 6. I follow the some steps and add the migration. 
 
-7. 
+7. I added the search and string value
+
+8. I added the OnGetAsync
