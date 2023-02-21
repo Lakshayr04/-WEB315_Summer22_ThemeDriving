@@ -47,3 +47,5 @@ dotnet ef database update
 5. I add the validation steps.
 
 6. I follow the some steps and add the migration. 
+
+7. 

@@ -10,6 +10,16 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+<from>
+    <p>
+        <select asp-for="Mode" asp-items="Model.Drive">
+        <option value="">All</option>    
+        </select>
+        Search by Route or Car Color : <input type="text" asp-for="SearchString" />
+    </p>
+</from>
+
 <table class="table">
     <thead>
         <tr>
