@@ -1,6 +1,19 @@
 ﻿@page "/enginepowerlist"
 <h3>EnginePowerList</h3>
-
+<button class="btn btn-primary" @onclick="DisplayList">Show List</button>
+@foreach(string item in List)
+{
+    <p>@item</p>
+}
+<input type="number" value="5">
 @code {
-
+    string[] List= new string[] {};
+    public void  DisplayList()
+    {
+        List = new string []{"Tourque","HorsePower","RPM", "PDS", "CC"};
+    }
+    public void UpdateData(int amount)
+    {
+        
+    }
 }
