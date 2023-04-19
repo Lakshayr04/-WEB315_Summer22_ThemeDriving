@@ -9,5 +9,15 @@ namespace LakshyaRajputChat.Server.Hubs
         {
             await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
+
+         public async Task WhenTyping(string user)
+        {
+            await Clients.Others.SendAsync("UserTyping", user);
+        }
+
+         public async Task ForAnonMsg(string message)
+        {
+            await Clients.All.SendAsync("ReceiveAnonMessage", message);
+        }
     }
 }
